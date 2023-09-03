@@ -1,0 +1,55 @@
+.blogform {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)),
+        url("https://img.freepik.com/free-photo/office-supplies_23-2148103974.jpg?w=996&t=st=1690621613~exp=1690622213~hmac=b5c5d363a167b38feb320cc4894866f42b7758ef68f53b480a70cc161c84510e");
+    background-size: cover;
+}
+
+.loginTitle {
+    font-size: 50px;
+}
+
+
+
+.loginForm>label {
+    margin: 10px 0;
+}
+
+.blogInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.loginInput:focus {
+    outline: none;
+}
+
+.createButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.loginRegisterButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}

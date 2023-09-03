@@ -1,0 +1,12 @@
+.login2 {
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)),
+        url("https://img.freepik.com/free-photo/top-view-blue-monday-concept-with-copy-space_23-2148719980.jpg?w=1060&t=st=1690619064~exp=1690619664~hmac=58f65e31f98f3f4ead6da0afb5c2cd3ec6a745f2d6bde2866f640ad22eaf6d0d");
+    background-size: cover;
+}
